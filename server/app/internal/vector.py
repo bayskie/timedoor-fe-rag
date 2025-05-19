@@ -6,7 +6,7 @@ import os
 
 # Load documents
 loader = PyPDFLoader(os.path.abspath(os.path.join(
-    os.path.dirname(__file__), "data/input-validation.pdf")))
+    os.path.dirname(__file__), "../data/input-validation.pdf")))
 documents = loader.load()
 
 # Split the document into chunks

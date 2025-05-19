@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from app.schemas import PromptRequest, PromptResponse
-from app.chain import chain
-from app.vector import retriever
+from app.internal.schemas import PromptRequest, PromptResponse
+from app.internal.chain import chain
+from app.internal.vector import retriever
 
 app = FastAPI()
 
